@@ -1,0 +1,1446 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7 no-js" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8 no-js" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en" class="no-js">
+
+<head>
+    <!-- Basic need -->
+    <title>Afrobeat</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <link rel="profile" href="#">
+
+    <!--Google Font-->
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Dosis:400,700,500|Nunito:300,400,600' />
+    <!-- Mobile specific meta -->
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone-no">
+
+    <!-- CSS files -->
+    <link rel="stylesheet" href="css/plugins.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <!--preloading-->
+    <div id="preloader" style="">
+        <img class="logo" src="http://res.cloudinary.com/sammiestarks/image/upload/v1512465818/unnamed_hqta5f.jpg" alt="" width="119" height="58">
+        <div id="status">
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <!--end of preloading-->
+    <!--login form popup-->
+    <div class="login-wrapper" id="login-content">
+        <div class="login-content">
+            <a href="#" class="close">x</a>
+            <h3>Login</h3>
+            <form method="post" action="login.php">
+                <div class="row">
+                    <label for="username">
+                    Username:
+                    <input type="text" name="username" id="username" placeholder="Hugh Jackman" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{8,20}$" required="required" />
+                </label>
+                </div>
+
+                <div class="row">
+                    <label for="password">
+                    Password:
+                    <input type="password" name="password" id="password" placeholder="******" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" />
+                </label>
+                </div>
+                <div class="row">
+                    <div class="remember">
+                        <div>
+                            <input type="checkbox" name="remember" value="Remember me"><span>Remember me</span>
+                        </div>
+                        <a href="#">Forget password ?</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <button type="submit">Login</button>
+                </div>
+            </form>
+            <div class="row">
+                <p>Or via social</p>
+                <div class="social-btn-2">
+                    <a class="fb" href="#"><i class="ion-social-facebook"></i>Facebook</a>
+                    <a class="tw" href="#"><i class="ion-social-twitter"></i>twitter</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end of login form popup-->
+    <!--signup form popup-->
+    <div class="login-wrapper" id="signup-content">
+        <div class="login-content">
+            <a href="#" class="close">x</a>
+            <h3>sign up</h3>
+            <form method="post" action="signup.php">
+                <div class="row">
+                    <label for="username-2">
+                    Username:
+                    <input type="text" name="username" id="username-2" placeholder="Hugh Jackman" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{8,20}$" required="required" />
+                </label>
+                </div>
+
+                <div class="row">
+                    <label for="email-2">
+                    your email:
+                    <input type="password" name="email" id="email-2" placeholder="" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" />
+                </label>
+                </div>
+                <div class="row">
+                    <label for="password-2">
+                    Password:
+                    <input type="password" name="password" id="password-2" placeholder="" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" />
+                </label>
+                </div>
+                <div class="row">
+                    <label for="repassword-2">
+                    re-type Password:
+                    <input type="password" name="password" id="repassword-2" placeholder="" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" />
+                </label>
+                </div>
+                <div class="row">
+                    <button type="submit">sign up</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--end of signup form popup-->
+
+<!-- BEGIN | Header -->
+<header class="ht-header" style="background-image: url(http://res.cloudinary.com/sammiestarks/image/upload/v1516292351/webCover2_nlqs6x.png)">
+	<div class="container">
+		<nav class="navbar navbar-default navbar-custom">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header logo">
+				    <div class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					    <span class="sr-only">Toggle navigation</span>
+					    <div id="nav-icon1">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+				    </div>
+				    <a href="index.html"><img class="logo" src="http://res.cloudinary.com/sammiestarks/image/upload/v1512465818/unnamed_hqta5f.jpg" alt="" width="119" height="58"></a>
+			    </div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse flex-parent" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav flex-child-menu menu-left">
+						<li class="hidden">
+							<a href="#page-top"></a>
+						</li>
+						<li class="dropdown first">
+							<a href="index.html" class="btn btn-default lv1">
+								Home
+							</a>
+                        </li>
+                        <li class="dropdown first">
+                            <a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown">
+							News <i class="fa fa-angle-down" aria-hidden="true"></i>
+							</a>
+                            <ul class="dropdown-menu level1">
+                                <li><a href="bloglist_light.html">Latest News</a></li>
+                                <li><a href="bloglist_light.html">Celebrities</a></li>
+                                <li><a href="bloglist_light.html">Lifestyle</a></li>
+                                <li><a href="bloglist_light.html">Gossip</a></li>
+
+                                <li><a href="bloglist_light.html">Movies</a></li>
+                                <li><a href="bloglist_light.html">Music</a></li>
+                                <li><a href="bloglist_light.html">Wedding & Pre-Wedding</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="dropdown first">
+                            <a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
+							Music<i class="fa fa-angle-down" aria-hidden="true"></i>
+							</a>
+                            <ul class="dropdown-menu level1">
+                                <li><a href="music_light.html">Newly Added</a></li>
+								<li><a href="music_list.html">Top Songs</a></li>
+                                <li><a href="music_light.html">Artists</a></li>
+                                <li><a href="moviesingle_light.html">Albums</a></li>
+                                <li class="it-last"><a href="seriessingle_light.html">Music Videos</a></li>
+                            </ul>
+                        </li>
+                        <li class=" first">
+                            <a href="celebritygrid01_light.html" class="btn btn-default  lv1">
+							celebrities
+							</a>
+                        </li>
+                        <li class="dropdown first">
+                            <a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
+							TV <i class="fa fa-angle-down" aria-hidden="true"></i>
+							</a>
+                            <ul class="dropdown-menu level1">
+                                <li><a href="tv_light.html">Newly Added</a></li>
+                                <li><a href="bloglist_light.html">Movies</a></li>
+                                <li><a href="bloggrid_light.html">TV Series</a></li>
+                                <li class="it-last"><a href="blogdetail_light.html">Interviews</a></li>
+                            </ul>
+                        </li>
+                        <li class="first">
+                            <a href="events.html" class="btn btn-default lv1">
+							events
+							</a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav flex-child-menu menu-right">
+                        <li class="dropdown first">
+                            <a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
+							I-Report <i class="fa fa-angle-down" aria-hidden="true"></i>
+							</a>
+                            <ul class="dropdown-menu level1">
+                                <li><a href="bloggrid_light.html">Latest Reports</a></li>
+                                <li><a href="404.html">Report a News</a></li>
+                                <!-- <li class="it-last"><a href="comingsoon.html">Coming soon</a></li> -->
+                            </ul>
+                        </li>
+                        <li><a href="#" disabled="">Help</a></li>
+                        <li class="loginLink"><a href="#">LOG In</a></li>
+                        <li class="btn signupLink"><a href="#">sign up</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </nav>
+
+            <!-- top search form -->
+            <div class="top-search">
+                <select>
+				<option value="united">Search</option>
+				<option value="saab">Others</option>
+			</select>
+                <input type="text" placeholder="Search for a movie, news, music, TV Show or celebrity that you are looking for">
+            </div>
+        </div>
+    </header>
+    <!-- END | Header -->
+
+<div class="slider movie-items">
+	<div class="container">
+		<div class="row">
+			<div class="social-link">
+				<p>Follow us: </p>
+				<a href="#"><i class="ion-social-facebook"></i></a>
+				<a href="#"><i class="ion-social-twitter"></i></a>
+				<a href="#"><i class="ion-social-googleplus"></i></a>
+				<a href="#"><i class="ion-social-youtube"></i></a>
+			</div>
+	    	<div  class="slick-multiItemSlider">
+	    		<div class="movie-item">
+	    			<div class="mv-img">
+	    				<a href="blogdetail_light.html"><img src="http://res.cloudinary.com/sammiestarks/image/upload/v1516612609/Mr-Eazi-Vibe-Magazine-3-_m6poxb.jpg" alt="" style="height: 400px; width: 300px;"></a>
+	    			</div>
+	    			<div class="title-in">
+	    				<div class="cate">
+	    					<span class="blue"><a href="#">Entertainment News</a></span>
+	    				</div>
+	    				<h6><a href="blogdetail_light.html" style="background-color: black;">Mr Eazi Begs For Songs, Beats, Collaborations And Music Ideas</a></h6>
+	    			</div>
+	    		</div>
+				<div class="movie-item">
+	    			<div class="mv-img">
+	    				<a href="blogdetail_light.html"><img src="http://res.cloudinary.com/sammiestarks/image/upload/v1516612882/19932681_252673445219625_6442681579448827904_n_kvhmeo.jpg" alt="" style="height: 400px; width: 300px;"></a>
+	    			</div>
+	    			<div class="title-in">
+	    				<div class="cate">
+	    					<span class="yell"><a href="#">Entertainment News</a></span>
+	    				</div>
+	    				<h6><a href="blogdetail_light.html" style="background-color: black;">“I don’t care” – Lil Kesh finally responds to Reekado Bank’s claim of being a better singer</a></h6>
+	    			</div>
+	    		</div>
+	    		<div class="movie-item">
+	    			<div class="mv-img">
+	    				<a href="blogdetail_light.html"><img src="http://res.cloudinary.com/sammiestarks/image/upload/v1516612028/Ice-prince_x6b2qr.png" alt="" style="height: 400px; width: 300px;"></a>
+	    			</div>
+	    			<div class="title-in">
+	    				<div class="cate">
+	    					<span class="green"><a href="#">Entertainment News</a></span>
+	    				</div>
+	    				<h6><a href="blogdetail_light.html">Ice Prince finally admits he is now an upcoming act</a></h6>
+	    			</div>
+	    		</div>
+	    		<div class="movie-item">
+	    			<div class="mv-img">
+	    				<a href="blogdetail_light.html"><img src="http://res.cloudinary.com/sammiestarks/image/upload/v1516611992/DTUNES-TITILAILAI-OLAMIDE1-696x696_ioeall.jpg" alt="" style="height: 400px; width: 300px;"></a>
+	    			</div>
+	    			<div class="title-in">
+	    				<div class="cate">
+	    					<span class="blue"><a href="#">Music</a></span> <span class="orange"><a href="#">Top Songs</a></span>
+	    				</div>
+	    				<h6><a href="blogdetail_light.html">Dtunes Premieres New Song Titled “Titilailai” Featuring Olamide</a></h6>
+	    			</div>
+	    		</div>
+	    		<div class="movie-item">
+	    			<div class="mv-img">
+	    				<a href="blogdetail_light.html"><img src="http://res.cloudinary.com/sammiestarks/image/upload/v1516611988/b1-5_hot8vo.jpg" alt="" style="height: 400px; width: 300px;"></a>
+	    			</div>
+	    			<div class="title-in">
+	    				<div class="cate">
+	    					<span class="blue"><a href="#">Lifestyle</a></span>
+	    				</div>
+	    				<h6><a href="blogdetail_light.html" style="background-color: black;">See The Charcoal Drawing By This Igbo Lady That Got The Whole Of Twitter Talking</a></h6>
+	    			</div>
+	    		</div>
+				<div class="movie-item">
+	    			<div class="mv-img">
+	    				<a href="blogdetail_light.html"><img src="http://res.cloudinary.com/sammiestarks/image/upload/v1516614368/Olamide-1_foyhbo.png" alt="" style="height: 400px; width: 300px;"></a>
+	    			</div>
+	    			<div class="title-in">
+	    				<div class="cate">
+	    					<span class="yell"><a href="#">Entertainment News</a></span>
+	    				</div>
+	    				<h6><a href="blogdetail_light.html">Olamide reacts to ban of his song “Science Student” with a #SayNoToDrugAbuse campaign</a></h6>
+	    			</div>
+	    		</div>
+	    		<div class="movie-item">
+	    			<div class="mv-img">
+						<a href="blogdetail_light.html"><img src="http://res.cloudinary.com/sammiestarks/image/upload/v1516614361/Actor-John-Dumelo_dbqlja.jpg" alt="" style="height: 400px; width: 300px;"></a>
+	    			</div>
+	    			<div class="title-in">
+	    				<div class="cate">
+	    					<span class="green"><a href="#">Entertainment News</a></span>
+	    				</div>
+	    				<h6><a href="blogdetail_light.html">John Dumelo isn’t engaged afterall</a></h6>
+	    				<p><i class="ion-android-star"></i><span>7.4</span> /10</p>
+	    			</div>
+	    		</div>
+	    		<div class="movie-item">
+	    			<div class="mv-img">
+						<a href="blogdetail_light.html"><img src="http://res.cloudinary.com/sammiestarks/image/upload/v1516614362/cardi-b-beyonce-vibe.ng_-696x464_ahfy2f.jpg" alt="" style="height: 400px; width: 300px;"></a>
+	    			</div>
+	    			<div class="title-in">
+	    				<div class="cate">
+	    					<span class="blue"><a href="#">News</a></span> <span class="orange"><a href="#">Entertainment News</a></span>
+	    				</div>
+	    				<h6><a href="blogdetail_light.html">Cardi B Takes Beyonce’s Crown As The Ruler of Billboard Charts</a></h6>
+	    				<p><i class="ion-android-star"></i><span>7.4</span> /10</p>
+	    			</div>
+	    		</div>
+	    		<div class="movie-item">
+	    			<div class="mv-img">
+						<a href="blogdetail_light.html"><img src="http://res.cloudinary.com/sammiestarks/image/upload/v1516614361/21042329_1809376449080200_8979903874286485504_n_z7nevm.jpg" alt="" style="height: 400px; width: 300px;"></a>
+	    			</div>
+	    			<div class="title-in">
+	    				<div class="cate">
+	    					<span class="green"><a href="#">Entertainment News</a></span>
+	    				</div>
+	    				<h6><a href="blogdetail_light.html">Producer, Kiddominant Apologizes To Soundcity Following His Twitter Rant for losing award</a></h6>
+	    				<p><i class="ion-android-star"></i><span>7.4</span> /10</p>
+	    			</div>
+	    		</div>
+	    	</div>
+	    </div>
+	</div>
+</div>
+		<div class="buster-light">
+<div class="movie-items">
+	<div class="container">
+		<div class="row ipad-width">
+			<div class="col-md-8">
+				<div class="title-hd">
+					<h2>News</h2>
+					<a href="bloglist_light.html" class="viewall">View all <i class="ion-ios-arrow-right"></i></a>
+				</div>
+				<div class="tabs">
+					<ul class="tab-links">
+						<li class="active"><a href="#tab1">Top Story</a></li>
+						<li><a href="#tab2"> Most Read</a></li>
+						<li><a href="#tab3">  Most Discussed  </a></li>
+					</ul>
+				    <div class="tab-content">
+				        <div id="tab1" class="tab active">
+				            <div class="row">
+				            	<div class="slick-multiItem">
+				            		<div class="slide-it">
+				            			<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="http://res.cloudinary.com/sammiestarks/image/upload/v1516615802/Tito_crjfmv.jpg" alt="" style="height:255px; width:180px">
+					            			</div> 
+					            			<div class="hvr-inner">
+					            				<a  href="blogdetail_light.html"> Read more <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="blogdetail_light.html" style="background-color: black;">‘Nigerian rappers are unknown in South Africa’ – Cassper Nyovest</a></h6>
+					            			</div>
+					            		</div>
+				            		</div>
+									<div class="slide-it">
+										<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="http://res.cloudinary.com/sammiestarks/image/upload/v1516615794/14624755_1692667957719149_6805243485713596416_n_fdrigm.jpg" alt="" style="height:255px; width:180px">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="blogdetail_light.html"> Read more <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="blogdetail_light.html">Regina Daniels opens up on how much she earns per movie</a></h6>
+					            			</div>
+					            		</div>
+									</div>
+				            		<div class="slide-it">
+				            			<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="http://res.cloudinary.com/sammiestarks/image/upload/v1516615798/Nelly-admits-to-having-consensual-sex-with-woman-accusing-him-of-rape-Lailasnews-2_lwpdku.jpg" alt="" style="height:255px; width:180px">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="blogdetail_light.html"> Read more <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="blogdetail_light.html">Nelly admits to having consensual sex with woman accusing him of rape</a></h6>
+					            			</div>
+					            		</div>
+				            		</div>
+				            		<div class="slide-it">
+				            			<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="http://res.cloudinary.com/sammiestarks/image/upload/v1516615986/porn-star-donald-trump_r85zhq.jpg" alt="" style="height:255px; width:180px">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="blogdetail_light.html"> Read more <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="blogdetail_light.html">Porn Star Confesses Getting Invited To Have Threesome With Donald Trump</a></h6>
+					            			</div>
+					            		</div>
+				            		</div>
+				            		<div class="slide-it">
+				            			<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="http://res.cloudinary.com/sammiestarks/image/upload/v1513677221/Davido_kvste2.jpg" alt="" style="height:255px; width:180px">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="blogdetail_light.html"> Read more <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="blogdetail_light.html">Davido threatens to publish the names of his debtors</a></h6>
+					            			</div>
+					            		</div>
+				            		</div>
+									<div class="slide-it">
+										<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="http://res.cloudinary.com/sammiestarks/image/upload/v1516615788/cardi-b-offset-696x464_mbfwht.jpg" alt="" style="height:255px; width:180px">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="blogdetail_light.html"> Read more <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="blogdetail_light.html">Internet Reacts To Offset Getting A Cardi B Tattoo To Prove His Undying Love</a></h6>
+					            			</div>
+					            		</div>
+									</div>
+				            		<div class="slide-it">
+				            			<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="http://res.cloudinary.com/sammiestarks/image/upload/v1516615799/pri_62164123-e1515664013393_bdn8jo.jpg" alt="" style="height:255px; width:180px">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="blogdetail_light.html"> Read more <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="blogdetail_light.html">Kim and Kanye West welcome a baby girl via surrogate</a></h6>
+					            			</div>
+					            		</div>
+				            		</div>
+				            		<div class="slide-it">
+				            			<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="http://res.cloudinary.com/sammiestarks/image/upload/v1512463059/kay_faolwc.jpg" alt="" style="height:255px; width:180px">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="blogdetail_light.html"> Read more <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="blogdetail_light.html">Mr 2Kay sues Eko Hotel for N500 Million</a></h6>
+					            			</div>
+					            		</div>
+				            		</div>
+				            		<div class="slide-it">
+				            			<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="http://res.cloudinary.com/sammiestarks/image/upload/v1516615825/Shina-Peller_glrlu5.png" alt="" style="height:255px; width:180px">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="blogdetail_light.html"> Read more <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="blogdetail_light.html">Shina Peller declares 2019 political ambition</a></h6>
+					            			</div>
+					            		</div>
+				            		</div>
+				            	</div>
+				            </div>
+				        </div>
+				        <div id="tab2" class="tab">
+				           <div class="row">
+				            	<div class="slick-multiItem">
+				            		<div class="slide-it">
+				            			<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="http://res.cloudinary.com/sammiestarks/image/upload/v1516614786/angee1_bv6ohj.jpg" alt="" style="height:255px; width:180px">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="blogdetail_light.html"> Read more <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="blogdetail_light.html">Nigerian Actress, Angela Okorie Goes Bald in Beautiful Photos</a></h6>
+					            				<p><i class="ion-android-star"></i><span>7.4</span> /10</p>
+					            			</div>
+					            		</div>
+				            		</div>
+									<div class="slide-it">
+										<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="http://res.cloudinary.com/sammiestarks/image/upload/v1516614401/Lil-Kesh-3_m4ospq.png" alt="" style="height:255px; width:180px">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="blogdetail_light.html"> Read more <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="blogdetail_light.html">I have made more money floating my own label – Lil Kesh</a></h6>
+					            				<p><i class="ion-android-star"></i><span>7.4</span> /10</p>
+					            			</div>
+					            		</div>
+									</div>
+				            		<div class="slide-it">
+				            			<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="http://res.cloudinary.com/sammiestarks/image/upload/v1516614793/6566304_collage201801172_jpeg7476f884b8d5b94cfcae6e81cd0d1e86_w78leh.jpg" alt="" style="height:255px; width:180px">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="blogdetail_light.html"> Read more <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="blogdetail_light.html">Onyeka Onwenu sued Iroking for N205 Million for copyright infringement</a></h6>
+					            				<p><i class="ion-android-star"></i><span>7.4</span> /10</p>
+					            			</div>
+					            		</div>
+				            		</div>
+				            		<div class="slide-it">
+				            			<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="http://res.cloudinary.com/sammiestarks/image/upload/v1516614926/Mr.-2kay-Elevated_Album_FrontCover-696x696_ndwiua.jpg" alt="" style="height:255px; width:180px">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="blogdetail_light.html"> Read more <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="blogdetail_light.html">Mr. 2Kay Set For New Album | Unveils Art Cover, Tracklisting & Release Date</a></h6>
+					            				<p><i class="ion-android-star"></i><span>7.4</span> /10</p>
+					            			</div>
+					            		</div>
+				            		</div>
+				            		<div class="slide-it">
+				            			<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="http://res.cloudinary.com/sammiestarks/image/upload/v1516612014/Daddy-Freeze-1_rf5g3u.png" alt="" style="height:255px; width:180px">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="blogdetail_light.html"> Read more <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="blogdetail_light.html">Daddy Freeze and fans roast Samklef for Antagonizing him on IG</a></h6>
+					            				<p><i class="ion-android-star"></i><span>7.4</span> /10</p>
+					            			</div>
+					            		</div>
+				            		</div>
+				            	</div>
+				            </div>
+				        </div>
+				        <div id="tab3" class="tab">
+				        	<div class="row">
+				            	<div class="slick-multiItem">
+				            		<div class="slide-it">
+				            			<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="http://res.cloudinary.com/sammiestarks/image/upload/v1516615802/Tito_crjfmv.jpg" alt="" style="height:285px; width:185px">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="blogdetail_light.html"> Read more <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="blogdetail_light.html">‘Nigerian rappers are unknown in South Africa’ – Cassper Nyovest</a></h6>
+					            				<p><i class="ion-android-star"></i><span>7.4</span> /10</p>
+					            			</div>
+					            		</div>
+				            		</div>
+									<div class="slide-it">
+										<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="http://res.cloudinary.com/sammiestarks/image/upload/v1516615794/14624755_1692667957719149_6805243485713596416_n_fdrigm.jpg" alt="" style="height:285px; width:185px">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="blogdetail_light.html"> Read more <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="blogdetail_light.html">Regina Daniels opens up on how much she earns per movie</a></h6>
+					            				<p><i class="ion-android-star"></i><span>7.4</span> /10</p>
+					            			</div>
+					            		</div>
+									</div>
+				            		<div class="slide-it">
+				            			<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="http://res.cloudinary.com/sammiestarks/image/upload/v1516615798/Nelly-admits-to-having-consensual-sex-with-woman-accusing-him-of-rape-Lailasnews-2_lwpdku.jpg" alt="" style="height:285px; width:185px">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="blogdetail_light.html"> Read more <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="blogdetail_light.html">Nelly admits to having consensual sex with woman accusing him of rape</a></h6>
+					            				<p><i class="ion-android-star"></i><span>7.4</span> /10</p>
+					            			</div>
+					            		</div>
+				            		</div>
+				            		<div class="slide-it">
+				            			<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="http://res.cloudinary.com/sammiestarks/image/upload/v1516615986/porn-star-donald-trump_r85zhq.jpg" alt="" style="height:285px; width:185px">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="blogdetail_light.html"> Read more <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="blogdetail_light.html">Porn Star Confesses Getting Invited To Have Threesome With Donald Trump</a></h6>
+					            				<p><i class="ion-android-star"></i><span>7.4</span> /10</p>
+					            			</div>
+					            		</div>
+				            		</div>
+				            		<div class="slide-it">
+				            			<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="http://res.cloudinary.com/sammiestarks/image/upload/v1516612014/Daddy-Freeze-1_rf5g3u.png" alt="" style="height:285px; width:185px">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="blogdetail_light.html"> Read more <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="blogdetail_light.html">Daddy Freeze and fans roast Samklef for Antagonizing him on IG</a></h6>
+					            				<p><i class="ion-android-star"></i><span>7.4</span> /10</p>
+					            			</div>
+					            		</div>
+				            		</div>
+				            	</div>
+				            </div>
+			       	 	</div>
+			     <!--  	 	<div id="tab4" class="tab">
+				        	<div class="row">
+				            	<div class="slick-multiItem">
+				            		<div class="slide-it">
+				            			<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="images/uploads/mv-item5.jpg" alt="" style="height:255px; width:180px">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="blogdetail_light.html"> Read more <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="blogdetail_light.html">Interstellar</a></h6>
+					            				<p><i class="ion-android-star"></i><span>7.4</span> /10</p>
+					            			</div>
+					            		</div>
+				            		</div>
+									<div class="slide-it">
+										<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="images/uploads/mv-item6.jpg" alt="" style="height:255px; width:180px">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="blogdetail_light.html"> Read more <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="blogdetail_light.html">The revenant</a></h6>
+					            				<p><i class="ion-android-star"></i><span>7.4</span> /10</p>
+					            			</div>
+					            		</div>
+									</div>
+				            		<div class="slide-it">
+				            			<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="images/uploads/mv-item7.jpg" alt="" style="height:255px; width:180px">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="blogdetail_light.html"> Read more <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="blogdetail_light.html">Die hard</a></h6>
+					            				<p><i class="ion-android-star"></i><span>7.4</span> /10</p>
+					            			</div>
+					            		</div>
+				            		</div>
+				            		<div class="slide-it">
+				            			<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="images/uploads/mv-item8.jpg" alt="" style="height:255px; width:180px">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="blogdetail_light.html"> Read more <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="blogdetail_light.html">The walk</a></h6>
+					            				<p><i class="ion-android-star"></i><span>7.4</span> /10</p>
+					            			</div>
+					            		</div>
+				            		</div>
+				            		<div class="slide-it">
+				            			<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="images/uploads/mv-item3.jpg" alt="" style="height:255px; width:180px">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="blogdetail_light.html"> Read more <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="blogdetail_light.html">Die hard</a></h6>
+					            				<p><i class="ion-android-star"></i><span>7.4</span> /10</p>
+					            			</div>
+					            		</div>
+				            		</div>
+				            	</div>
+				            </div>
+			       	 	</div>-->
+				    </div>
+				</div>
+				<div class="title-hd">
+					<h2>Music</h2>
+					<a href="music_list.html" class="viewall">View all <i class="ion-ios-arrow-right"></i></a>
+				</div>
+				<div class="tabs">
+					<ul class="tab-links-2">
+						<li><a href="#tab21">Hot</a></li>
+						<li class="active"><a href="#tab22"> Trending</a></li>
+					</ul>
+				    <div class="tab-content">
+				        <div id="tab21" class="tab">
+				            <div class="row">
+				            	<div class="slick-multiItem">
+				            		<div class="slide-it">
+				            			<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="http://res.cloudinary.com/sammiestarks/image/upload/v1516617018/Burna-Boy_vngpnv.jpg" alt="" style="height:255px; width:180px">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="song_info.html"> Listen <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="song_info.html">Burna Boy - Heaven's Gate (feat. Lily Allen)</a></h6>
+                                                <p><i class="ion-android-star"></i><span>7.4</span> /10</p>
+					            			</div>
+					            		</div>
+				            		</div>
+									<div class="slide-it">
+										<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="http://res.cloudinary.com/sammiestarks/image/upload/v1516617388/lotto-boyzz-7182_rykwsi.jpg" alt="" style="height:255px; width:180px">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="song_info.html"> Listen <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="song_info.html">Lotto Boyzz - Bim Bam</a></h6>
+					            				<p><i class="ion-android-star"></i><span>7.4</span> /10</p>
+					            			</div>
+					            		</div>
+									</div>
+				            		<div class="slide-it">
+				            			<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="http://res.cloudinary.com/sammiestarks/image/upload/v1516617018/Burna-Boy_vngpnv.jpg" alt="" style="height:255px; width:180px">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="song_info.html"> Listen <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="song_info.html">Burna Boy (feat. J Hus) - Sekkle Down</a></h6>
+					            				<p><i class="ion-android-star"></i><span>7.4</span> /10</p>
+					            			</div>
+					            		</div>
+				            		</div>
+				            		<div class="slide-it">
+				            			<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="http://res.cloudinary.com/sammiestarks/image/upload/v1516617365/WANDE-COAL_rjefk6.jpg" alt="" style="height:255px; width:180px">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="song_info.html"> Listen <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="song_info.html">Wande Coal - Tur-Key Nla</a></h6>
+					            				<p><i class="ion-android-star"></i><span>7.4</span> /10</p>
+					            			</div>
+					            		</div>
+				            		</div>
+				            		<div class="slide-it">
+				            			<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="http://res.cloudinary.com/sammiestarks/image/upload/v1516618075/DS22p82WsAAvMY6_zodssj.jpg" alt="" style="height:255px; width:180px">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="song_info.html"> Listen <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="song_info.html">L.A.X - GWARA GWARA</a></h6>
+					            				<p><i class="ion-android-star"></i><span>7.4</span> /10</p>
+					            			</div>
+					            		</div>
+				            		</div>
+				            	</div>
+				            </div>
+				        </div>
+				        <div id="tab22" class="tab active">
+				           <div class="row">
+				            	<div class="slick-multiItem">
+				            		<div class="slide-it">
+				            			<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="http://res.cloudinary.com/sammiestarks/image/upload/v1516617018/Burna-Boy_vngpnv.jpg" alt="" style="height:284px; width:185px">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="song_info.html"> Listen <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="song_info.html">Burna Boy - Heaven's Gate (feat. Lily Allen)</a></h6>
+                                                <p><i class="ion-android-star"></i><span>7.4</span> /10</p>
+					            			</div>
+					            		</div>
+				            		</div>
+									<div class="slide-it">
+										<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="http://res.cloudinary.com/sammiestarks/image/upload/v1516617388/lotto-boyzz-7182_rykwsi.jpg" alt="" style="height:285px; width:185px">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="song_info.html"> Listen <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="song_info.html">Lotto Boyzz - Bim Bam</a></h6>
+                                                <p><i class="ion-android-star"></i><span>7.4</span> /10</p>
+					            			</div>
+					            		</div>
+									</div>
+				            		<div class="slide-it">
+				            			<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="http://res.cloudinary.com/sammiestarks/image/upload/v1516617018/Burna-Boy_vngpnv.jpg" alt="" style="height:285px; width:185px">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="song_info.html"> Listen <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="song_info.html">Burna Boy (feat. J Hus) - Sekkle Down</a></h6>
+                                                <p><i class="ion-android-star"></i><span>7.4</span> /10</p>
+					            			</div>
+					            		</div>
+				            		</div>
+				            		<div class="slide-it">
+				            			<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="http://res.cloudinary.com/sammiestarks/image/upload/v1516617365/WANDE-COAL_rjefk6.jpg" alt="" style="height:285px; width:185px">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="song_info.html"> Listen <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="song_info.html">Wande Coal - Tur-Key Nla</a></h6>
+                                                <p><i class="ion-android-star"></i><span>7.4</span> /10</p>
+					            			</div>
+					            		</div>
+				            		</div>
+				            		<div class="slide-it">
+				            			<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="http://res.cloudinary.com/sammiestarks/image/upload/v1516618075/DS22p82WsAAvMY6_zodssj.jpg" alt="" style="height:285px; width:185px">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="song_info.html"> Listen <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="song_info.html">L.A.X - GWARA GWARA</a></h6>
+                                                <p><i class="ion-android-star"></i><span>7.4</span> /10</p>
+					            			</div>
+					            		</div>
+				            		</div>
+									<div class="slide-it">
+										<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="http://res.cloudinary.com/sammiestarks/image/upload/v1516618623/MAYORKUN_lsjorr.jpg" alt="" style="height:285px; width:185px">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="song_info.html"> Listen <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="song_info.html">Mayorkun - Che Che</a></h6>
+                                                <p><i class="ion-android-star"></i><span>7.4</span> /10</p>
+					            			</div>
+					            		</div>
+									</div>
+				            		<div class="slide-it">
+				            			<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="http://res.cloudinary.com/sammiestarks/image/upload/v1516618612/27949-c7473f-orezi-1_jgzufy.jpg" alt="" style="height:285px; width:185px">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="song_info.html"> Listen <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="song_info.html">Orezi - Ghen Ghen</a></h6>
+                                                <p><i class="ion-android-star"></i><span>7.4</span> /10</p>
+					            			</div>
+					            		</div>
+				            		</div>
+				            		<div class="slide-it">
+				            			<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="http://res.cloudinary.com/sammiestarks/image/upload/v1513679383/iyanya_om7w2i.jpg" alt="" style="height:285px; width:185px">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="song_info.html"> Listen <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="song_info.html">Iyanya - Desire</a></h6>
+                                                <p><i class="ion-android-star"></i><span>7.4</span> /10</p>
+					            			</div>
+					            		</div>
+				            		</div>
+				            		<div class="slide-it">
+				            			<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="http://res.cloudinary.com/sammiestarks/image/upload/v1516618626/Ric-Hassani-2_aqgc5s.jpg" alt="" style="height:285px; width:185px">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="song_info.html"> Listen <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="song_info.html">Ric Hassani - Police</a></h6>
+                                                <p><i class="ion-android-star"></i><span>7.4</span> /10</p>
+					            			</div>
+					            		</div>
+				            		</div>
+									<div class="slide-it">
+										<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="http://res.cloudinary.com/sammiestarks/image/upload/v1513684220/Skales_vhdnz0.jpg" alt="" style="height:285px; width:185px">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="song_info.html"> Listen <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="song_info.html">Skales - The Never Say Never Guy</a></h6>
+                                                <p><i class="ion-android-star"></i><span>7.4</span> /10</p>
+					            			</div>
+					            		</div>
+									</div>
+				            	</div>
+				            </div>
+				        </div>
+				   <!--     <div id="tab23" class="tab">
+				        	<div class="row">
+				            	<div class="slick-multiItem">
+				            		<div class="slide-it">
+				            			<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="images/uploads/mv-item1.jpg" alt="" width="185" height="284">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="moviesingle.html"> Read more <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="#">Interstellar</a></h6>
+					            				<p><i class="ion-android-star"></i><span>7.4</span> /10</p>
+					            			</div>
+					            		</div>
+				            		</div>
+									<div class="slide-it">
+										<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="images/uploads/mv-item2.jpg" alt="" width="185" height="284">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="moviesingle.html"> Read more <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="#">The revenant</a></h6>
+					            				<p><i class="ion-android-star"></i><span>7.4</span> /10</p>
+					            			</div>
+					            		</div>
+									</div>
+				            		<div class="slide-it">
+				            			<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="images/uploads/mv-item3.jpg" alt="" width="185" height="284">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="moviesingle.html"> Read more <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="#">Die hard</a></h6>
+					            				<p><i class="ion-android-star"></i><span>7.4</span> /10</p>
+					            			</div>
+					            		</div>
+				            		</div>
+				            		<div class="slide-it">
+				            			<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="images/uploads/mv-item4.jpg" alt="" width="185" height="284">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="moviesingle.html"> Read more <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="#">The walk</a></h6>
+					            				<p><i class="ion-android-star"></i><span>7.4</span> /10</p>
+					            			</div>
+					            		</div>
+				            		</div>
+				            		<div class="slide-it">
+				            			<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="images/uploads/mv-item5.jpg" alt="" width="185" height="284">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="moviesingle.html"> Read more <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="#">Interstellar</a></h6>
+					            				<p><i class="ion-android-star"></i><span>7.4</span> /10</p>
+					            			</div>
+					            		</div>
+				            		</div>
+									<div class="slide-it">
+										<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="images/uploads/mv-item6.jpg" alt="" width="185" height="284">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="moviesingle.html"> Read more <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="#">The revenant</a></h6>
+					            				<p><i class="ion-android-star"></i><span>7.4</span> /10</p>
+					            			</div>
+					            		</div>
+									</div>
+				            		<div class="slide-it">
+				            			<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="images/uploads/mv-item7.jpg" alt="" width="185" height="284">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="moviesingle.html"> Read more <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="#">Die hard</a></h6>
+					            				<p><i class="ion-android-star"></i><span>7.4</span> /10</p>
+					            			</div>
+					            		</div>
+				            		</div>
+				            		<div class="slide-it">
+				            			<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="images/uploads/mv-item8.jpg" alt="" width="185" height="284">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="moviesingle.html"> Read more <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="#">The walk</a></h6>
+					            				<p><i class="ion-android-star"></i><span>7.4</span> /10</p>
+					            			</div>
+					            		</div>
+				            		</div>
+				            		<div class="slide-it">
+				            			<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="images/uploads/mv-item3.jpg" alt="" width="185" height="284">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="moviesingle.html"> Read more <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="#">Die hard</a></h6>
+					            				<p><i class="ion-android-star"></i><span>7.4</span> /10</p>
+					            			</div>
+					            		</div>
+				            		</div>
+				            	</div>
+				            </div>
+			       	 	</div>-->
+		<!--	       	 	 <div id="tab24" class="tab">
+				        	<div class="row">
+				            	<div class="slick-multiItem">
+				            		<div class="slide-it">
+				            			<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="images/uploads/mv-item5.jpg" alt="" width="185" height="284">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="moviesingle.html"> Read more <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="#">Interstellar</a></h6>
+					            				<p><i class="ion-android-star"></i><span>7.4</span> /10</p>
+					            			</div>
+					            		</div>
+				            		</div>
+									<div class="slide-it">
+										<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="images/uploads/mv-item6.jpg" alt="" width="185" height="284">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="moviesingle.html"> Read more <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="#">The revenant</a></h6>
+					            				<p><i class="ion-android-star"></i><span>7.4</span> /10</p>
+					            			</div>
+					            		</div>
+									</div>
+				            		<div class="slide-it">
+				            			<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="images/uploads/mv-item7.jpg" alt="" width="185" height="284">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="moviesingle.html"> Read more <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="#">Die hard</a></h6>
+					            				<p><i class="ion-android-star"></i><span>7.4</span> /10</p>
+					            			</div>
+					            		</div>
+				            		</div>
+				            		<div class="slide-it">
+				            			<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="images/uploads/mv-item8.jpg" alt="" width="185" height="284">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="moviesingle.html"> Read more <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="#">The walk</a></h6>
+					            				<p><i class="ion-android-star"></i><span>7.4</span> /10</p>
+					            			</div>
+					            		</div>
+				            		</div>
+				            		<div class="slide-it">
+				            			<div class="movie-item">
+					            			<div class="mv-img">
+					            				<img src="images/uploads/mv-item3.jpg" alt="" width="185" height="284">
+					            			</div>
+					            			<div class="hvr-inner">
+					            				<a  href="moviesingle.html"> Read more <i class="ion-android-arrow-dropright"></i> </a>
+					            			</div>
+					            			<div class="title-in">
+					            				<h6><a href="#">Die hard</a></h6>
+					            				<p><i class="ion-android-star"></i><span>7.4</span> /10</p>
+					            			</div>
+					            		</div>
+				            		</div>
+				            	</div>
+				            </div>
+			       	 	</div>-->
+				    </div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="sidebar">
+					<div class="ads">
+						<img src="http://res.cloudinary.com/sammiestarks/image/upload/v1516805538/Zenith-App-300-x-250_jq4fyi.gif" alt="" style="width: 336px; height: 296px">
+					</div>
+					<div class="celebrities">
+						<h4 class="sb-title">Spotlight Celebrities</h4>
+						<div class="celeb-item">
+							<a href="#"><img src="http://res.cloudinary.com/sammiestarks/image/upload/v1512466010/wizkid_x6hiyp.jpg" alt="" style="height: 70px; width: 70px"></a>
+							<div class="celeb-author">
+								<h6><a href="#">Wizkid</a></h6>
+								<span>Artist</span>
+							</div>
+						</div>
+						<div class="celeb-item">
+							<a href="#"><img src="http://res.cloudinary.com/sammiestarks/image/upload/v1512730627/7_uf9buz.jpg" alt="" style="height: 70px; width: 70px"></a>
+							<div class="celeb-author">
+								<h6><a href="#">Tu Face</a></h6>
+								<span>Artist</span>
+							</div>
+						</div>
+						<div class="celeb-item">
+							<a href="#"><img src="http://res.cloudinary.com/sammiestarks/image/upload/v1512730631/Kiss-Daniel_qqxucw.jpg" alt="" style="height: 70px; width: 70px"></a>
+							<div class="celeb-author">
+								<h6><a href="#">Kiss Daniel</a></h6>
+								<span>Artist</span>
+							</div>
+						</div>
+						<div class="celeb-item">
+							<a href="#"><img src="http://res.cloudinary.com/sammiestarks/image/upload/v1512730628/davido_s4tu7o.jpg" alt="" style="height: 70px; width: 70px"></a>
+							<div class="celeb-author">
+								<h6><a href="#">Davido</a></h6>
+								<span>Artist</span>
+							</div>
+						</div>
+						<a href="#" class="btn">See all celebrities<i class="ion-ios-arrow-right"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="trailers">
+	<div class="container">
+		<div class="row ipad-width">
+			<div class="col-md-12">
+				<div class="title-hd">
+					<h2>TV</h2>
+					<a href="#" class="viewall">View all <i class="ion-ios-arrow-right"></i></a>
+				</div>
+				<div class="videos">
+				 	<div class="slider-for-2 video-ft">
+				 		<div>
+					    	<iframe class="item-video" src="https://www.youtube.com/embed/MU6pkGpUOiQ"  data-src=""></iframe>
+					    </div>
+					    <div>
+					    	<iframe class="item-video" src="https://www.youtube.com/embed/J9upTBWiW8I" data-src=""></iframe>
+					    </div>
+					    <div>
+					    	<iframe class="item-video" src="https://www.youtube.com/embed/iYvjcNkgqw0" data-src=""></iframe>
+					    </div>
+					    <div>
+					    	<iframe class="item-video" src="https://www.youtube.com/embed/PS4s6QH_RHI" data-src=""></iframe>
+					    </div>
+					    <div>
+					    	<iframe class="item-video" src="https://www.youtube.com/embed/IKP2IXIeJPE" data-src=""></iframe>
+					    </div>
+                    </div>
+                            <div class="slider-nav-2 thumb-ft">
+                                <div class="item">
+                                    <div class="trailer-img">
+                                        <img src="http://res.cloudinary.com/sammiestarks/image/upload/v1513262365/Wedding-party-2_lrj8is.jpg" alt="photo by Barn Images" width="4096" height="2737">
+                                    </div>
+                                    <div class="trailer-infor">
+                                        <h4 class="desc">The Wedding Party 2</h4>
+                                        <p>2:30</p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="trailer-img">
+                                        <img src="http://res.cloudinary.com/sammiestarks/image/upload/v1513262376/triptojamaica_pjjggf.jpg" alt="photo by Barn Images" width="350" height="200">
+                                    </div>
+                                    <div class="trailer-infor">
+                                        <h4 class="desc">A Trip To Jamaica</h4>
+                                        <p>2:37</p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="trailer-img">
+                                        <img src="http://res.cloudinary.com/sammiestarks/image/upload/v1513262337/bama_wesgg8.jpg" alt="photo by Joshua Earle">
+                                    </div>
+                                    <div class="trailer-infor">
+                                        <h4 class="desc">Banana Island Ghost Trailer</h4>
+                                        <p>2:44</p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="trailer-img">
+                                        <img src="http://res.cloudinary.com/sammiestarks/image/upload/v1516634093/featured-image_nwei6n.png" width="100" height="56">
+                                    </div>
+                                    <div class="trailer-infor">
+                                        <h4 class="desc">Isoken</h4>
+                                        <p>2:43</p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="trailer-img">
+                                        <img src="http://res.cloudinary.com/sammiestarks/image/upload/v1513263115/mywifeandi_mijkuk.jpg" alt="photo by Wojciech Szaturski" width="100" height="56">
+                                    </div>
+                                    <div class="trailer-infor">
+                                        <h4 class="desc">My Wife and I</h4>
+                                        <p>2: 32</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--end of latest new v1 section-->
+        <div class="latestnew">
+            <div class="container">
+                <div class="row ipad-width">
+                    <div class="col-md-8">
+                        <div class="ads" style="height:106px;  overflow-y:hidden;">
+                            <img src="http://res.cloudinary.com/sammiestarks/image/upload/v1515487870/AIRTELAFRICA_Homepage_banner_C_sgmkid.jpg" alt="" width="728" height="106" style="margin-top:-5em;">
+                        </div>
+                        <div class="title-hd">
+                            <h2>Events</h2>
+                        </div>
+                        <div class="tabs">
+                            <ul class="tab-links-3">
+                                <li class="active"><a href="#tab31">#Movies </a></li>
+                                <li><a href="#tab32"> #TV Shows </a></li>
+                                <li><a href="#tab33">  # Celebs</a></li>
+                            </ul>
+                            <div class="tab-content">
+                                <div id="tab31" class="tab active">
+									<div class="row">
+										<div class="blog-item-style-1">
+											<img src="http://res.cloudinary.com/sammiestarks/image/upload/v1513590838/bankyw-wedding_h9s51i.jpg" alt="" style="height:170px; width: 250px">
+											<div class="blog-it-infor">
+												<h3><a href="#">Brie Larson to play first female white house candidate Victoria Woodull in Amazon film</a></h3>
+												<span class="time">13 hours ago</span>
+												<p>Exclusive: <span>Amazon Studios </span>has acquired Victoria Woodhull, with Oscar winning Room star <span>Brie Larson</span> polsed to produce, and play the first female candidate for the presidency of the United States. Amazon bought it in a pitch package deal. <span> Ben Kopit</span>, who wrote the Warner Bros film <span>Libertine</span> that has...</p>
+											</div>
+										</div>
+									</div>
+                                </div>
+                                <div id="tab32" class="tab">
+                                    <div class="row">
+
+                                        <div class="blog-item-style-1 border-z ">
+                                            <div class="thumbnail ">
+                                                <a href="/w3images/fjords.jpg" target="_blank">
+                                                    <img src="images/uploads/blog-it2.jpg" alt="" width="170" height="250">
+
+                                                </a>
+                                            </div>
+                                            <div class="blog-it-infor">
+                                                <h3><a href="#">Tab 2</a></h3>
+                                                <span class="time">13 hours ago</span>
+                                                <p>Exclusive: <span>Amazon Studios </span>has acquired Victoria Woodhull, with Oscar winning Room star <span>Brie Larson</span> polsed to produce, and play the first female candidate for the presidency of the
+                                                    United States. Amazon bought it in a pitch package deal. <span> Ben Kopit</span>, who wrote the Warner Bros film <span>Libertine</span> that has...</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="tab33" class="tab">
+                                    <div class="row">
+                                        <div class="blog-item-style-1">
+                                            <img src="images/uploads/blog-it1.jpg" alt="" width="170" height="250">
+                                            <div class="blog-it-infor">
+                                                <h3><a href="#">Tab 3</a></h3>
+                                                <span class="time">13 hours ago</span>
+                                                <p>Exclusive: <span>Amazon Studios </span>has acquired Victoria Woodhull, with Oscar winning Room star <span>Brie Larson</span> polsed to produce, and play the first female candidate for the presidency of the
+                                                    United States. Amazon bought it in a pitch package deal. <span> Ben Kopit</span>, who wrote the Warner Bros film <span>Libertine</span> that has...</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="morenew">
+                            <div class="title-hd">
+                                <h3>More news on Blockbuster</h3>
+                                <a href="#" class="viewall">See all Pictures<i class="ion-ios-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="sidebar">
+                            <div class="sb-facebook sb-it">
+                                <h4 class="sb-title">Find us on Facebook</h4>
+                                <iframe src="" data-src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fhaintheme%2F%3Ffref%3Dts&tabs=timeline&width=300&height=315px&small_header=true&adapt_container_width=false&hide_cover=false&show_facepile=true&appId"
+                                    width="300" height="315" style="border:none;overflow:hidden"></iframe>
+                            </div>
+                            <div class="sb-twitter sb-it">
+                                <h4 class="sb-title">Tweet to us</h4>
+                                <div class="slick-tw">
+                                    <div class="tweet item" id="599202861751410688">
+                                    </div>
+                                    <div class="tweet item" id="297462728598122498">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end of latest new v1 section-->
+
+    </div>
+
+    <!-- footer section-->
+    <footer class="ht-footer">
+        <div class="container">
+            <div class="flex-parent-ft">
+                <div class="flex-child-ft item1">
+                    <a href="index.html"><img class="logo" src="http://res.cloudinary.com/sammiestarks/image/upload/v1512465818/unnamed_hqta5f.jpg" alt=""></a>
+                    <!-- <p>5th Avenue st, manhattan<br> New York, NY 10001</p>
+                    <p>Call us: <a href="#">(+01) 202 342 6789</a></p> -->
+                </div>
+                <div class="flex-child-ft item2">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="flex-child-ft item3">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="flex-child-ft item4">
+                    <h4>News TV Music</h4>
+                    <ul>
+                        <li><a href="#">Celebrities</a></li>
+                        <li><a href="#">Lifestyle</a></li>
+                        <li><a href="#">Gossip</a></li>
+
+                        <li><a href="#">Movies</a></li>
+                        <li><a href="#">TV Series</a></li>
+                        <li><a href="#">Interviews</a></li>
+
+                        <li><a href="#">Artists</a></li>
+                        <li><a href="#">Albums</a></li>
+                        <li><a href="#">Music Videos</a></li>
+                    </ul>
+                </div>
+                <div class="flex-child-ft item5">
+                    <h4>I-Report</h4>
+                    <p>Report to our newsreport system now <br> to get latest news to us.</p>
+                    <form action="#">
+                        <input type="text" placeholder="Enter your email...">
+                        <input type="text" placeholder="Name...">
+                        <input type="text" placeholder="Number...">
+                        <input type="file" placeholder="Content..." class="btn">
+                    </form>
+                    <a href="#" class="btn">Send <i class="ion-ios-arrow-forward"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="ft-copyright">
+            <div class="ft-left">
+                <p>© 2018 Afrobeat. All Rights Reserved.</p>
+            </div>
+            <div class="backtotop">
+                <p><a href="#" id="back-to-top">Back to top  <i class="ion-ios-arrow-thin-up"></i></a></p>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer section-->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/plugins2.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
